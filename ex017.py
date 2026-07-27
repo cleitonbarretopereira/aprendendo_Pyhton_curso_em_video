@@ -1,0 +1,13 @@
+import math
+print('HIPOTENUSA E CATETO')
+print('METÓDO 1')
+co = float(input(('Cateto Oposto = ')))
+ca = float(input(('Cateto Adjacente = ')))
+hi = (ca**2 + co**2) ** (1/2)
+print('O Valor da HIPOTENUSA é {:.2f}'.format(hi))
+print('-*'*13)
+print('METÓDO 2')
+co = float(input(('Cateto Oposto = ')))
+ca = float(input(('Cateto Adjacente = ')))
+hi = math.hypot(ca, co)
+print('O Valor da HIPOTENUSA é {:.2f}'.format(hi))
