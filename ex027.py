@@ -1,0 +1,5 @@
+print('LENDO NOME COMPLETO')
+nome = str(input('Digite seu nome completo: ')).strip().upper()
+nome_fatia = nome.split()
+print(nome_fatia)
+print('Seu primeiro nome é {} e seu último nome é {}.'.format(nome_fatia[0], nome_fatia[-1]))
